@@ -1,0 +1,8 @@
+.hero-image {
+    width: 1920px auto;
+    height: 720px;
+    background-image: url(../hero-image.jpg);
+    background-size: cover;
+    justify-content: center;
+    box-sizing: border-box;
+}

@@ -1,8 +1,54 @@
 .hero-image {
-    width: 1920px auto;
-    height: 720px;
+    /* width: 1920px auto; */
+    height: 880px;
+    margin-top: 120px;
     background-image: url(../hero-image.jpg);
     background-size: cover;
+    display: flex;
     justify-content: center;
     box-sizing: border-box;
+    align-items: center;
+    color:white;
+}
+    
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+.section {
+    margin-top: 120px;
+    display: flex;
+
+}
+
+.order {
+    background-color: rgb(109, 114, 124, 0.83);
+    justify-content: center;
+}
+
+#section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 430px;
+    height: 600px;
+}
+
+.order > div {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+  margin-bottom: 1rem;  
+}
+
+.ready {
+    text-align: left;
 }

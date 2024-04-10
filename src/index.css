@@ -4,16 +4,21 @@ body {
   font-size: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 4rem;
+  /* font-weight: 200; */
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
+.dropdown {
+  font-size: 24px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

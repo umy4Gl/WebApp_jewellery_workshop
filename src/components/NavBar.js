@@ -20,8 +20,8 @@ const NavBar = () => {
                             </Col>
                             <Col>
                                 <NavDropdown title="Каталог" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Украшения</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Компоненты для дизайна</NavDropdown.Item>
+                                    <NavDropdown.Item className="dropdown" href="#action/3.1">Украшения</NavDropdown.Item>
+                                    <NavDropdown.Item className="dropdown"href="#action/3.2">Компоненты для дизайна</NavDropdown.Item>
                                 </NavDropdown>
                             </Col>
                         </Row>

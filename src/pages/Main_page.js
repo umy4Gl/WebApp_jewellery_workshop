@@ -20,18 +20,25 @@ const MainPage = () => {
             <Container className="section order" fluid>
                 <Image src={'jew_for_orders.png'} id="section" />
                 <div className="flex-column text-center" id="section">
-                    <p>Мы с радостью готовы воплотить все ваши идеи, вложив в них максимум вдохновения и усердия.</p>
+                    <p> Мы с радостью готовы воплотить все Ваши идеи, вложив в них максимум вдохновения и усердия.</p>
+                    <p> С помощью конструктора для дизайна вы сможете создать уникальное украшение, которое Вам точно понравится. </p>
                     <Button text='оформить заказ' />
                     <Button text='к компонентам дизайна' />
                 </div>
             </Container>
-            <Container  className="section ready justify-content-center" fluid>
+            <Container className="section ready flex-column justify-content-center" fluid>
                 <h2>Готовые украшения</h2>
-                {/* <div className="d-flex justify-content-center"> */}
-                <CardMain title="Браслеты"/>
-                <CardMain title="Браслеты"/>
-                <CardMain title="Браслеты"/>
-                {/* </div> */}
+                <div>
+                    <CardMain className="braslet" title="Браслеты" id="braslet">
+                        <img src="" className="card-img" />
+                    </CardMain>
+                    <CardMain className="ring" title="Кольца" id="ring">
+                        <img src="" className="card-img" />
+                    </CardMain>
+                    <CardMain className="neck" title="На шею" id="neck">
+                        <img src="jewellery.png" className="card-img" />
+                    </CardMain>
+                </div>
             </Container>
         </Container>
 

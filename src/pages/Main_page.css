@@ -8,12 +8,10 @@
     justify-content: center;
     box-sizing: border-box;
     align-items: center;
-    color:white;
 }
     
 
 h1 {
-    color: white;
     display: flex;
     justify-content: center;
     text-align: center;

@@ -10,7 +10,7 @@ const MainPage = () => {
     return (
         <Container fluid>
             <Container className="hero-image flex-column" fluid>
-                <h1>Cоздай украшение своей мечты</h1>
+                <h1 style={{color: 'white'}}>Cоздай украшение своей мечты</h1>
                 <Button text='оформить заказ' />
             </Container>
             <Container className="section justify-content-center text-center" fluid>

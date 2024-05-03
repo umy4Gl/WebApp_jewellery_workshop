@@ -24,16 +24,17 @@
     z-index: -1;
 }
 
- .slick-slide > div {
-    width: 13.33rem;
-  }
-  
+.ch {
+  max-width: 43%;
+}
 
- /* .slide {
-   max-width: 50%;
- } */
+.slick-slide > div {
+  width: 15.33rem;
+  height: 17.83rem;
+}
 
- .slick-arrow {
-    background-color: black;
- }
- 
+
+
+.slick-prev:before,.slick-next:before {
+  color: black;
+}

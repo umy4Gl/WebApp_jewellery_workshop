@@ -27,11 +27,23 @@ const Constructor = () => {
                         <Form.Select size="lg" style={{ width: 400 }}>
                             <option>Фурнитуры-основы</option>
                             <option value="1">Цепочка панцирного плетения</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="2">Цепочка плетение ролло</option>
+                            <option value="3">Цепочка якорного плетения</option>
+                            <option value="4">Цепочка плетение бисмарк классический</option>
+                            <option value="5">Цепочка плетение жгутом</option>
+                            <option value="6">Цепочка плетение колос</option>
+                            <option value="7">Цепочка якорное плетение</option>
                         </Form.Select>
+                        <Form.Select size="lg" style={{ width: 400 }} className="mt-2 me-5">
+                            <option>Металл фурнитуры</option>
+                            <option value="1">Серебро</option>
+                            <option value="2">Титан</option>
+                            <option value="3">Золото</option>
+                            <option value="4">Хирургическая нержавеющая сталь</option>
+                        </Form.Select>
+                        
                     </div>
-                    <img src={"jewellery.png"} className="cons" />
+                    <img src={"cepochka.jpg"} className="cons" />
                 </div>
                 <div className="mb-4 px-4">
                     <h3>3. Введите размер:</h3>
@@ -42,12 +54,19 @@ const Constructor = () => {
                         <h3>4. Выберите застежку:</h3>
                         <Form.Select size="lg" style={{ width: 400 }}>
                             <option>Застежки</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="1">Карабин-лобстер</option>
+                            <option value="2">Замок с резьбой</option>
+                            <option value="3">Кримп</option>
+                        </Form.Select>
+                        <Form.Select size="lg" style={{ width: 400 }} className="mt-2 me-5">
+                            <option>Металл застежки</option>
+                            <option value="1">Серебро</option>
+                            <option value="2">Титан</option>
+                            <option value="3">Золото</option>
+                            <option value="4">Хирургическая нержавеющая сталь</option>
                         </Form.Select>
                     </div>
-                    <img src={"jewellery.png"} className="cons" />
+                    <img src={"karabin.jpg"} className="cons" />
                 </div>
                 <div className="d-flex justify-content-between mb-4 px-4">
                     <div>
@@ -55,14 +74,15 @@ const Constructor = () => {
                         <div className="d-flex">
                             <Form.Select size="lg" style={{ width: 400 }}>
                             <option>Камни</option>
-                            <option value="1">Обсидиан черный</option>
-                            <option value="2">Розовый кварц</option>
-                            <option value="3">Красный гранат</option>
+                            <option value="1">Обсидиан снежный 8мм</option>
+                            <option value="2">Обсидиан снежный 12мм</option>
+                            <option value="3">Розовый кварц 12мм</option>
+                            <option value="4">Красный гранат овал</option>
                         </Form.Select>
                        <a href='<3' style={{ fontSize: '2rem', textDecoration: 'none', marginLeft: '15px'  }}>+</a>
                         </div>
                     </div>
-                    <img src={"jewellery.png"} className="cons" />
+                    <img src={"obsidian.jpg"} className="cons" />
                 </div>
                 <div className="d-flex  justify-content-center">
                 <Button text="добавить в корзину" />
